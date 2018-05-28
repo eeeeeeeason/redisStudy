@@ -25,7 +25,7 @@
 
 1.mkdir
 
-2.cd/ 
+2.cd/  cd ~回到根目录
 
 3.mv $HOME/testFolder /var/tmp 移动文件
 
@@ -41,4 +41,12 @@
 
 9.grep -r 'linux' /var/log/  递归过滤出含有linux关键字的内容
 
-10.
+10. ls -l 简写ll列出所有文件包括隐藏文件
+
+11. tar -zxvf xxxxxxxxxx.gz  解压
+
+12.make 跟gcc-c++有关
+
+13.make PREFIX=/usr/local/redis install 安装
+
+14.拷贝cp 文件名 路径
